@@ -1,0 +1,184 @@
+.home-image {
+  width: 100vw;
+  height: 90vh;
+  background-size: cover;
+}
+.Loader{
+  display: flex;
+  height:100vh;
+  width:100vw;
+  justify-content: center;
+  align-items: center;
+}
+..loader {
+  min-height: 90vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.products-container {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+.Category-container {
+  background-color: #d1e0e0;
+
+  
+  min-height: 50px;
+  max-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+  
+}
+.category {
+  margin-left: 10px;
+  outline: none;
+  height: 20px;
+  border: none;
+  width: 150px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+.category-label {
+  font-size: 14px;
+  margin-right: 10px;
+}
+.products-input {
+  margin-left: 10px;
+  outline: none;
+  height: 24px;
+  border: none;
+  width: 280px;
+  padding-left: 12px;
+  border-radius: 5px;
+}
+.input-container {
+  background-color: white;
+
+  outline: none;
+  margin-right: 20px;
+  border-radius: 5px;
+  height: 24px;
+  border: none;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.search-icon {
+  color: grey;
+  margin-top: 5px;
+  margin-right: 7px;
+}
+.search-button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.category-options {
+  justify-self: end;
+
+  outline: none;
+  height: 20px;
+  border: none;
+  width: 130px;
+
+  border-radius: 5px;
+}
+.products-card {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #b0e2ff;
+  background-color: #f0f5f5;
+}
+.product-item {
+
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+ padding-bottom: 10px;
+  list-style-type: none;
+  border: none;
+  border-radius: 30px;
+  background-color: #d1e0e0;
+
+}
+.product-item:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+  transition: box-shadow 0.1s ease-in-out;
+}
+
+.product-image {
+  height: 300px;
+  width: 390px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 0px;
+}
+.products-detail-container {
+  margin-top: 0px;
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-around;
+}
+.item {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 10px 5px;
+  text-align: center;
+}
+.items {
+  font-size: 15px;
+  font-weight: 400;
+
+  text-align: left;
+}
+.off {
+  color: #006600;
+  background-color: #ccffeb;
+  width: 200px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+.description {
+  width: 280px;
+  font-size: 12px;
+  text-align: center;
+}
+.rupees-icon {
+  font-size: 16px;
+  font-weight: 300;
+}
+.cart-button{
+  border:none;
+  color:white;
+  background-color: #006600;
+  border-radius: 5px;
+  height:32px;
+  width:90px;
+}
+.buy-now-button{
+  color:#006600;
+  background-color: transparent;
+  border: 1px solid #006600;
+  border-radius: 5px;
+  height:32px;
+
+  width:90px;
+
+}
+.buttons{
+  display: flex;
+  justify-content: space-around;
+}
+.stars{
+  margin: 0px;
+  color:#006600;
+}
